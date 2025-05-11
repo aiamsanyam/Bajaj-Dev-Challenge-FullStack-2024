@@ -12,11 +12,11 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, "frontend")));
 
-const FULL_NAME = "john_doe";
-const DOB = "17091999";
+const FULL_NAME = "sunil_verma";
+const DOB = "25112004";
 const USER_ID = `${FULL_NAME}_${DOB}`;
-const EMAIL = "john@xyz.com";
-const ROLL_NUMBER = "ABCD123";
+const EMAIL = "sunilverma220648@acropolis.in";
+const ROLL_NUMBER = "0827IT221140";
 
 app.get("/bfhl", (req, res) => {
   return res.status(200).json({
